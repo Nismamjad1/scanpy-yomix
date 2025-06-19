@@ -27,6 +27,7 @@ from ._score_genes import score_genes, score_genes_cell_cycle
 from ._sim import sim
 from ._tsne import tsne
 from ._umap import umap
+from ._yomix import yomix
 
 if TYPE_CHECKING:
     from typing import Any
@@ -58,4 +59,5 @@ __all__ = [
     "sim",
     "tsne",
     "umap",
+    "yomix"
 ]
